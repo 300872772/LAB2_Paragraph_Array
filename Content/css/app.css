@@ -1,0 +1,22 @@
+/* custom css goes here */
+
+.logo {
+    float: left;
+    height: 80%;
+        -webkit-filter: drop-shadow(2px 2px 2px #000000);
+    filter:         drop-shadow(2px 2px 2px #000000); 
+}
+.allabout{
+ font-size: 35px;  
+   text-shadow:  3px 3px black;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:16px;
+    }
+    p{
+        font-size:12px;
+    }
+    
+}
